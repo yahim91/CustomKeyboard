@@ -23,6 +23,7 @@
     android:id="@+id/keyboard"
     android:layout_alignParentBottom="true"
     android:layout_width="match_parent"
+    android:background="@color/key_background_color"
     android:keyTextColor="@color/key_text_color"
-
+    android:keyBackground="@drawable/key_background"
     android:layout_height="wrap_content"/>
