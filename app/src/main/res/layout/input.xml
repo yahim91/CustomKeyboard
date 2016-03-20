@@ -26,6 +26,7 @@
     android:layout_width="match_parent"
     android:padding="0dp"
     android:layout_margin="0dp"
+    android:shadowRadius="0"
     android:keyPreviewLayout="@layout/preview_layout"
     android:background="@color/key_background_color"
     android:keyTextColor="@color/key_text_color"
