@@ -91,7 +91,8 @@ public class LatinKeyboard extends Keyboard {
             mModeChangeKey.x = mSavedModeChangeKey.x;
             mLanguageSwitchKey.width = mSavedLanguageSwitchKey.width;
             mLanguageSwitchKey.icon = mSavedLanguageSwitchKey.icon;
-            mLanguageSwitchKey.iconPreview = mSavedLanguageSwitchKey.iconPreview;
+//            mLanguageSwitchKey.iconPreview = mSavedLanguageSwitchKey.iconPreview;
+            mLanguageSwitchKey.iconPreview = null;
         } else {
             // The language switch key should be hidden. Change the width of the mode change key
             // to fill the space of the language key so that the user will not see any strange gap.

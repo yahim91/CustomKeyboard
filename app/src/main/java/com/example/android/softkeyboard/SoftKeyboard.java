@@ -713,8 +713,13 @@ public class SoftKeyboard extends InputMethodService
     }
     
     public void onPress(int primaryCode) {
+        if (primaryCode == 32) {
+        } else {
+            mInputView.setPreviewEnabled(true);
+        }
     }
     
     public void onRelease(int primaryCode) {
+        mInputView.setPreviewEnabled(false);
     }
 }
